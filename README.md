@@ -44,4 +44,28 @@ And to D.B. Cooper and the money he took
 You can look for answers but that ain't fun
 Now get in the pit and try to love someone
 
+
+
+It was 1989, my thoughts were short my hair was long
+Caught somewhere between a boy and man
+She was seventeen and she was far from in-between
+It was summertime in Northern Michigan
+Ahh Ahh Ahh
+Ahh Ahh Ahh
+Splashing through the sand bar
+Talking by the campfire
+It's the simple things in life, like when and where
+We didn't have no internet
+But man I never will forget
+The way the moonlight shined upon her hair
+And we were trying different things
+We were smoking funny things
+Making love out by the lake to our favorite song
+Sipping whiskey out the bottle, not thinking 'bout tomorrow
+Singing Sweet home Alabama all summer long
+Singing Sweet home Alabama all summer long
+Catching Walleye from the dock
+Watching the waves roll off the rocks
+She'll forever…
+
 [Hook]
