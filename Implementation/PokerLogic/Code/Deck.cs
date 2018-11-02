@@ -9,6 +9,8 @@ namespace AwesomePokerGameSln.Code {
     private List<Tuple<int,int>> cards;
     private int curCardIndex;
 
+    // a change
+
     /// <summary>
     /// constructs a new deck object
     /// </summary>
