@@ -18,6 +18,8 @@ namespace AwesomePokerGameSln {
     private Hand playerHand;
     private Hand dealerHand;
 
+        const int AvatarPicBoxIndex = 6;
+
     public FrmPlaygame() {
       InitializeComponent();
       playerCardPics = new PictureBox[5];
@@ -66,5 +68,32 @@ namespace AwesomePokerGameSln {
     private void button1_Click(object sender, EventArgs e) {
       dealCards();
     }
-  }
+
+        /// <summary>
+        /// Handles click of "Change Avatar" button and updates new avatar.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // get avatar picturebox
+            var avatarPictureBox = this.Controls.Find("pictureBox" + AvatarPicBoxIndex.ToString(), true)[0] as PictureBox;
+
+            // open file dialog   
+            OpenFileDialog open = new OpenFileDialog();
+            // image filters  
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                // display image in picture box  
+                avatarPictureBox.Image = new Bitmap(open.FileName);
+                avatarPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+            }
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
